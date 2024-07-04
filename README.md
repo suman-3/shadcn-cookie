@@ -128,4 +128,4 @@ do whatever you want.
 
 ## Demo
 
-- [Live demo](https://shadcn-cookie-consent.vercel.app)
+- [Live demo](https://cookie.exions.xyz/)
