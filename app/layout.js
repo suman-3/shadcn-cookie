@@ -3,7 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/components/theme-provider";
-
+import { Analytics } from "@vercel/analytics/react"
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"]
@@ -39,6 +39,7 @@ export default function RootLayout({ children }) {
           <Header />
           {children}
           <Footer />
+          <Analytics mode={"production"}  />
         </ThemeProvider>
       </body>
     </html>
