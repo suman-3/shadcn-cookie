@@ -10,10 +10,10 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Shadcn Cookie COnsent",
+  title: "Shadcn Cookie",
   description: "Beautifully designed, customizable cookie consent for web built on top of shadcn-ui and tailwind-css!",
   keywords: "shadcn, cookie consent, nextjs, tailwind, ui, components",
-  author: "r2hu1",
+  author: "suman-3",
   robots: "index, follow",
   icons: ["/logo.png"]
 };
